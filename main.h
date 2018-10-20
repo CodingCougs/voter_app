@@ -14,11 +14,12 @@
 #include "readJSONFile.h"
 
 // Google Constants
-#define VOTE_INFO_CALL      1
-#define REP_INFO_CALL       2
+#define VOTE_INFO_CALL              1
+#define REP_INFO_CALL               2
 
 // Propublica Constants
-#define MEMBER_LIST         1
+#define SENATE_MEMBER_LIST          1
+#define HOUSE_MEMBER_LIST           2
 
 const char * PROPUBLICA_API_KEY = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
 const char * PROPUBLICA_API_KEY2 = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
@@ -87,11 +88,11 @@ char * createProPublicaURL(string parsedAddress, int dataToCall)
 
     switch (dataToCall)
     {
-        case MEMBER_LIST:
+        case HOUSE_MEMBER_LIST:
             buffer << "https://api.propublica.org/congress/v2/115/house/members.json" << "#";
             break;
-        case REP_INFO_CALL:
-            buffer << "https://www.googleapis.com/civicinfo/v2/representatives?address=" << parsedAddress << "&key=" << GOOGLE_CIVIC_API_KEY << "#";
+        case SENATE_MEMBER_LIST:
+            buffer << "https://api.propublica.org/congress/v2/115/senate/members.json" << "#";
             break;
         default:
             break;
@@ -161,21 +162,21 @@ void cURLaddressProPublica(string address, int dataToCall)
 
     switch (dataToCall)
     {
-        case MEMBER_LIST:
-            pagefilename = "houseMemberList.json";
+        case SENATE_MEMBER_LIST:
+            pagefilename = "senateMemberList.json";
             break;
-        case REP_INFO_CALL:
-            pagefilename = "repCallByAddress.json";
+        case HOUSE_MEMBER_LIST:
+            pagefilename = "houseMemberList.json";
             break;
         default:
             break;
     }
 
     curl_easy_setopt(curl, CURLOPT_URL, URL);
-    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+    // curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);        // curl_easy_setopt(curl, CURLOPT_URL, "https://api.propublica.org/congress/v1/members/K000388/votes.json");
     headers = curl_slist_append(headers, PROPUBLICA_API_KEY);         // API Key goes into the header, to send with the request
-    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);  
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers); 
                                                                         // Check for errors
     pagefile = fopen(pagefilename, "wb");
     if(pagefile)
