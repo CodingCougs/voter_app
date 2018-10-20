@@ -1,0 +1,633 @@
+{
+ "kind": "civicinfo#representativeInfoResponse",
+ "normalizedInput": {
+  "line1": "2508 Schuler Avenue Northwest",
+  "city": "Massillon",
+  "state": "OH",
+  "zip": "44647"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:oh": {
+   "name": "Ohio",
+   "officeIndices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  }
+ },
+ "offices": [
+  {
+   "name": "President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "headOfState",
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    0
+   ]
+  },
+  {
+   "name": "Vice-President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    1
+   ]
+  },
+  {
+   "name": "United States Senate",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Governor",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    4
+   ]
+  },
+  {
+   "name": "Lieutenant Governor",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    5
+   ]
+  },
+  {
+   "name": "State Auditor",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "officialIndices": [
+    6
+   ]
+  },
+  {
+   "name": "State Treasurer",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "officialIndices": [
+    7
+   ]
+  },
+  {
+   "name": "Attorney General",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "officialIndices": [
+    8
+   ]
+  },
+  {
+   "name": "Secretary of State",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "officialIndices": [
+    9
+   ]
+  },
+  {
+   "name": "State Board of Education Member District At-Large",
+   "divisionId": "ocd-division/country:us/state:oh",
+   "officialIndices": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  }
+ ],
+ "officials": [
+  {
+   "name": "Donald J. Trump",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "potus"
+    },
+    {
+     "type": "YouTube",
+     "id": "whitehouse"
+    }
+   ]
+  },
+  {
+   "name": "Mike Pence",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "VP"
+    }
+   ]
+  },
+  {
+   "name": "Rob Portman",
+   "address": [
+    {
+     "line1": "448 Russell Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 224-3353"
+   ],
+   "urls": [
+    "http://www.portman.senate.gov/public/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/P/P000449.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "senrobportman"
+    },
+    {
+     "type": "Twitter",
+     "id": "senrobportman"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenRobPortman"
+    }
+   ]
+  },
+  {
+   "name": "Sherrod Brown",
+   "address": [
+    {
+     "line1": "713 Hart Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 224-2315"
+   ],
+   "urls": [
+    "http://www.brown.senate.gov/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/B/B000944.jpg",
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "SenSherrodBrown"
+    },
+    {
+     "type": "YouTube",
+     "id": "SherrodBrownOhio"
+    },
+    {
+     "type": "Facebook",
+     "id": "sherrod"
+    },
+    {
+     "type": "GooglePlus",
+     "id": "112542899483130793359"
+    }
+   ]
+  },
+  {
+   "name": "John R. Kasich",
+   "address": [
+    {
+     "line1": "Riffe Center",
+     "line2": "30th Floor",
+     "line3": "77 South High Street",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-3555"
+   ],
+   "urls": [
+    "http://www.governor.ohio.gov/"
+   ],
+   "photoUrl": "http://governor.ohio.gov/portals/0/img/johnkasich.jpg",
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "OHPressSec"
+    },
+    {
+     "type": "YouTube",
+     "id": "governorjohnkasich"
+    }
+   ]
+  },
+  {
+   "name": "Mary Taylor",
+   "address": [
+    {
+     "line1": "Riffe Center",
+     "line2": "30th Floor",
+     "line3": "77 South High Street",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-3555"
+   ],
+   "urls": [
+    "http://www.governor.ohio.gov/About/LtGovernorTaylor.aspx"
+   ],
+   "photoUrl": "http://governor.ohio.gov/Portals/0/img/Mary_Taylor.jpg",
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "marytayloroh"
+    }
+   ]
+  },
+  {
+   "name": "Dave Yost",
+   "address": [
+    {
+     "line1": "88 East Broad Street",
+     "line2": "5th Floor",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-3402"
+   ],
+   "urls": [
+    "https://ohioauditor.gov/"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "OhioAuditor"
+    },
+    {
+     "type": "Twitter",
+     "id": "OhioAuditor"
+    }
+   ]
+  },
+  {
+   "name": "Josh Mandel",
+   "address": [
+    {
+     "line1": "30 E. Broad Street - 9th Floor",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-2160"
+   ],
+   "urls": [
+    "http://www.tos.ohio.gov/Biography"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "ohiotreasurer"
+    },
+    {
+     "type": "Twitter",
+     "id": "ohiotreasurer"
+    }
+   ]
+  },
+  {
+   "name": "Mike DeWine",
+   "address": [
+    {
+     "line1": "30 E. Broad St.",
+     "line2": "14th Floor",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-4986"
+   ],
+   "urls": [
+    "http://www.ohioattorneygeneral.gov/"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "OhioAttorneyGeneral"
+    },
+    {
+     "type": "Twitter",
+     "id": "OhioAG"
+    }
+   ]
+  },
+  {
+   "name": "Jon Husted",
+   "address": [
+    {
+     "line1": "180 East Broad Street",
+     "line2": "16th Floor",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(614) 466-2655"
+   ],
+   "urls": [
+    "http://www.sos.state.oh.us/SOS/agency.aspx"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "ohiososhusted"
+    },
+    {
+     "type": "Twitter",
+     "id": "OhioSOSHusted"
+    }
+   ]
+  },
+  {
+   "name": "Melanie P. Bolender",
+   "address": [
+    {
+     "line1": "25 S. Front Street Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 466-9514"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-of-Education-Home"
+   ]
+  },
+  {
+   "name": "Joseph L. Farmer",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "Joe.Farmer@education.ohio.gov"
+   ]
+  },
+  {
+   "name": "Tess Elshoff",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "ElshoffTess@education.ohio.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "tess_elshoff"
+    }
+   ]
+  },
+  {
+   "name": "Kara Morgan",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "Kara.Morgan@education.ohio.gov"
+   ]
+  },
+  {
+   "name": "Rebecca Vazquez-Skillings",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "Rebecca.Vazquez-Skillings@education.ohio.gov"
+   ]
+  },
+  {
+   "name": "Frank Pettigrew",
+   "address": [
+    {
+     "line1": "25 S. Front Street Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 466-9514"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-of-Education-Home"
+   ]
+  },
+  {
+   "name": "Cathye Flory",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "Cathye.Flory@education.ohio.gov"
+   ]
+  },
+  {
+   "name": "C. Todd Jones",
+   "address": [
+    {
+     "line1": "25 S. Front Street",
+     "line2": "Mail Stop 103",
+     "city": "Columbus",
+     "state": "OH",
+     "zip": "43215"
+    }
+   ],
+   "party": "Nonpartisan",
+   "phones": [
+    "(614) 728-2754"
+   ],
+   "urls": [
+    "http://education.ohio.gov/State-Board/State-Board-Members"
+   ],
+   "emails": [
+    "Jones.Todd@education.ohio.gov"
+   ]
+  }
+ ]
+}

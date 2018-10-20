@@ -1,0 +1,611 @@
+{
+   "status":"OK",
+   "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+   "results":[
+      {
+         "member_id": "K000388",
+         "num_results": "20",
+         "offset": "0",
+         "votes": [
+           {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "415",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/415.json",
+           "bill": {             "bill_id": "hres1099-115",
+             "number": "H.RES.1099",
+             "api_uri": null,
+             "title": null,
+             "latest_action": null
+           },
+           "amendment": {
+           },
+                     "description": "Providing for the concurrence by the House in the Senate amendment to H.R. 6, with an amendment",
+           "question": "On Motion to Suspend the Rules and Agree",
+           "result": "Passed",
+           "date": "2018-09-28",
+           "time": "12:22:00",
+           "total":              {
+               "yes": 393,
+               "no": 8,
+               "present": 0,
+               "not_voting": 27
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "414",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/414.json",
+           "bill": {
+             "bill_id": "hr6760-115",
+             "number": "H R 6760",
+             "sponsor_id": "D000619",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6760.json",
+             "title": "To amend the Internal Revenue Code of 1986 to make permanent certain provisions of the Tax Cuts and Jobs Act affecting individuals, families, and small businesses.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+           },
+           "amendment": {
+           },
+                     "description": "Protecting Family and Small Business Tax Cuts Act of 2018",
+           "question": "On Passage",
+           "result": "Passed",
+           "date": "2018-09-28",
+           "time": "12:06:00",
+           "total":              {
+               "yes": 220,
+               "no": 191,
+               "present": 0,
+               "not_voting": 18
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "413",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/413.json",
+           "bill": {
+             "bill_id": "hr6760-115",
+             "number": "H R 6760",
+             "sponsor_id": "D000619",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6760.json",
+             "title": "To amend the Internal Revenue Code of 1986 to make permanent certain provisions of the Tax Cuts and Jobs Act affecting individuals, families, and small businesses.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+           },
+           "amendment": {
+           },
+                     "description": "Protecting Family and Small Business Tax Cuts Act of 2018",
+           "question": "On Motion to Recommit with Instructions",
+           "result": "Failed",
+           "date": "2018-09-28",
+           "time": "11:57:00",
+           "total":              {
+               "yes": 184,
+               "no": 226,
+               "present": 0,
+               "not_voting": 18
+           },
+           "position": "No"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "412",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/412.json",
+           "bill": {
+             "bill_id": "hr6756-115",
+             "number": "H R 6756",
+             "sponsor_id": "B001260",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6756.json",
+             "title": "To amend the Internal Revenue Code of 1986 to promote new business innovation, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+           },
+           "amendment": {
+           },
+                     "description": "American Innovation Act of 2018",
+           "question": "On Passage",
+           "result": "Passed",
+           "date": "2018-09-27",
+           "time": "16:19:00",
+           "total":              {
+               "yes": 260,
+               "no": 156,
+               "present": 0,
+               "not_voting": 12
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "411",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/411.json",
+           "bill": {
+             "bill_id": "hr6757-115",
+             "number": "H R 6757",
+             "sponsor_id": "K000376",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6757.json",
+             "title": "To amend the Internal Revenue Code of 1986 to encourage retirement and family savings, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance."
+           },
+           "amendment": {
+           },
+                     "description": "Family Savings Act of 2018",
+           "question": "On Passage",
+           "result": "Passed",
+           "date": "2018-09-27",
+           "time": "16:10:00",
+           "total":              {
+               "yes": 240,
+               "no": 177,
+               "present": 0,
+               "not_voting": 11
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "410",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/410.json",
+           "bill": {
+             "bill_id": "hres1084-115",
+             "number": "H RES 1084",
+             "sponsor_id": "S000250",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1084.json",
+             "title": "Providing for consideration of the bill (H.R. 6756) to amend the Internal Revenue Code of 1986 to promote new business innovation, and for other purposes; providing for consideration of the bill (H.R. 6757) to amend the Internal Revenue Code of 1986 to encourage retirement and family savings, and for other purposes; providing for consideration of the bill (H.R. 6760) to amend the Internal Revenue Code of 1986 to make permanent certain provisions of the Tax Cuts and Jobs Act affecting individuals, families, and small businesses; and providing for proceedings during the period from October 1, 2018, through November 12, 2018.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Providing for consideration of the bill (H.R 6756), the American Innovation Act; consideration of the bill (H.R. 6757), the Family Savings Act; consideration of the bill (H.R. 6760), the Protecting ...",
+           "question": "On Agreeing to the Resolution",
+           "result": "Passed",
+           "date": "2018-09-27",
+           "time": "14:01:00",
+           "total":              {
+               "yes": 226,
+               "no": 189,
+               "present": 0,
+               "not_voting": 13
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "409",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/409.json",
+           "bill": {
+             "bill_id": "hres1084-115",
+             "number": "H RES 1084",
+             "sponsor_id": "S000250",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1084.json",
+             "title": "Providing for consideration of the bill (H.R. 6756) to amend the Internal Revenue Code of 1986 to promote new business innovation, and for other purposes; providing for consideration of the bill (H.R. 6757) to amend the Internal Revenue Code of 1986 to encourage retirement and family savings, and for other purposes; providing for consideration of the bill (H.R. 6760) to amend the Internal Revenue Code of 1986 to make permanent certain provisions of the Tax Cuts and Jobs Act affecting individuals, families, and small businesses; and providing for proceedings during the period from October 1, 2018, through November 12, 2018.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Providing for consideration of the bill (H.R 6756), the American Innovation Act; consideration of the bill (H.R. 6757), the Family Savings Act; consideration of the bill (H.R. 6760), the Protecting ...",
+           "question": "On Ordering the Previous Question",
+           "result": "Passed",
+           "date": "2018-09-27",
+           "time": "13:52:00",
+           "total":              {
+               "yes": 227,
+               "no": 189,
+               "present": 0,
+               "not_voting": 12
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "408",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/408.json",
+           "bill": {
+             "bill_id": "hr6729-115",
+             "number": "H R 6729",
+             "sponsor_id": "W000812",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6729.json",
+             "title": "To allow nonprofit organizations to register with the Secretary of the Treasury and share information on activities that may involve human trafficking or money laundering with financial institutions and regulatory authorities, under a safe harbor that offers protections from liability, in order to better identify and report potential human trafficking or money laundering activities.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+           },
+           "amendment": {
+           },
+                     "description": "Empowering Financial Institutions to Fight Human Trafficking Act",
+           "question": "On Motion to Suspend the Rules and Pass",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "17:50:00",
+           "total":              {
+               "yes": 297,
+               "no": 124,
+               "present": 0,
+               "not_voting": 7
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "407",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/407.json",
+           "bill": {
+             "bill_id": "hres1082-115",
+             "number": "H RES 1082",
+             "sponsor_id": "S001154",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1082.json",
+             "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 302, with an amendment.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "FAA Reauthorization Act of 2018",
+           "question": "On Motion to Suspend the Rules and Agree",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "17:41:00",
+           "total":              {
+               "yes": 398,
+               "no": 23,
+               "present": 0,
+               "not_voting": 7
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "406",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/406.json",
+           "bill": {
+             "bill_id": "hres1071-115",
+             "number": "H RES 1071",
+             "sponsor_id": "M001165",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1071.json",
+             "title": "Recognizing that allowing illegal immigrants the right to vote devalues the franchise and diminishes the voting power of United States citizens.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Recognizing that allowing illegal immigrants the right to vote devalues the franchise and diminishes the voting power of the United States citizens",
+           "question": "On Agreeing to the Resolution",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "17:34:00",
+           "total":              {
+               "yes": 279,
+               "no": 72,
+               "present": 69,
+               "not_voting": 8
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "405",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/405.json",
+           "bill": {
+             "bill_id": "hr6157-115",
+             "number": "H R 6157",
+             "sponsor_id": "G000377",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6157.json",
+             "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2019, and for other purposes.",
+             "latest_action": "Became Public Law No: 115-245."
+           },
+           "amendment": {
+           },
+                     "description": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2019, and for other purposes",
+           "question": "On Agreeing to the Conference Report",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "17:26:00",
+           "total":              {
+               "yes": 361,
+               "no": 61,
+               "present": 0,
+               "not_voting": 6
+           },
+           "position": "No"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "404",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/404.json",
+           "bill": {
+             "bill_id": "hr5420-115",
+             "number": "H R 5420",
+             "sponsor_id": "F000464",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr5420.json",
+             "title": "To authorize the acquisition of land for addition to the Home of Franklin D. Roosevelt National Historic Site in the State of New York, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+           },
+           "amendment": {
+           },
+                     "description": "FDR Historic Preservation Act",
+           "question": "On Motion to Suspend the Rules and Pass, as Amended",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "13:56:00",
+           "total":              {
+               "yes": 394,
+               "no": 15,
+               "present": 0,
+               "not_voting": 19
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "403",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/403.json",
+           "bill": {
+             "bill_id": "hres1077-115",
+             "number": "H RES 1077",
+             "sponsor_id": "C001053",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1077.json",
+             "title": "Providing for consideration of the conference report to accompany the bill (H.R. 6157) making appropriations for the Department of Defense for the fiscal year ending September 30, 2019, and for other purposes; providing for consideration of the resolution (H. Res. 1071) recognizing that allowing illegal immigrants the right to vote devalues the franchise and diminishes the voting power of United States citizens; and providing for consideration of motions to suspend the rules.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Providing for consideration for the conference report to accompany H.R. 6157, making appropriations for the Department of Defense for FY ending September 30, 2019; and H.Res. 1071, recognizing allowing illegal ...",
+           "question": "On Agreeing to the Resolution",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "13:49:00",
+           "total":              {
+               "yes": 230,
+               "no": 188,
+               "present": 0,
+               "not_voting": 10
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "402",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/402.json",
+           "bill": {
+             "bill_id": "hres1077-115",
+             "number": "H RES 1077",
+             "sponsor_id": "C001053",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1077.json",
+             "title": "Providing for consideration of the conference report to accompany the bill (H.R. 6157) making appropriations for the Department of Defense for the fiscal year ending September 30, 2019, and for other purposes; providing for consideration of the resolution (H. Res. 1071) recognizing that allowing illegal immigrants the right to vote devalues the franchise and diminishes the voting power of United States citizens; and providing for consideration of motions to suspend the rules.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Providing for consideration for the conference report to accompany H.R. 6157, making appropriations for the Department of Defense for FY ending September 30, 2019; and H.Res. 1071, recognizing allowing illegal ...",
+           "question": "On Ordering the Previous Question",
+           "result": "Passed",
+           "date": "2018-09-26",
+           "time": "13:41:00",
+           "total":              {
+               "yes": 230,
+               "no": 188,
+               "present": 0,
+               "not_voting": 10
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "401",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/401.json",
+           "bill": {
+             "bill_id": "hr6369-115",
+             "number": "H R 6369",
+             "sponsor_id": "M001198",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6369.json",
+             "title": "To amend the Small Business Act to eliminate the inclusion of option years in the award price for sole source contracts, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship."
+           },
+           "amendment": {
+           },
+                     "description": "Expanding Contracting Opportunities for Small Business Act of 2018",
+           "question": "On Motion to Suspend the Rules and Pass, as Amended",
+           "result": "Passed",
+           "date": "2018-09-25",
+           "time": "19:11:00",
+           "total":              {
+               "yes": 392,
+               "no": 5,
+               "present": 0,
+               "not_voting": 31
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "400",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/400.json",
+           "bill": {
+             "bill_id": "hr6368-115",
+             "number": "H R 6368",
+             "sponsor_id": "E000297",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr6368.json",
+             "title": "To encourage R\u0026D small business set-asides, to encourage SBIR and STTR participants to serve as mentors under the Small Business Administration&#39;s mentor-protege program, to promote the use of interagency contracts, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship."
+           },
+           "amendment": {
+           },
+                     "description": "Encouraging Small Business Innovators",
+           "question": "On Motion to Suspend the Rules and Pass",
+           "result": "Passed",
+           "date": "2018-09-25",
+           "time": "18:59:00",
+           "total":              {
+               "yes": 389,
+               "no": 6,
+               "present": 0,
+               "not_voting": 33
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "399",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/399.json",
+           "bill": {
+             "bill_id": "hr5895-115",
+             "number": "H R 5895",
+             "sponsor_id": "S001148",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr5895.json",
+             "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2019, and for other purposes.",
+             "latest_action": "Became Public Law No: 115-244."
+           },
+           "amendment": {
+           },
+                     "description": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2019, and for other purposes",
+           "question": "On Agreeing to the Conference Report",
+           "result": "Passed",
+           "date": "2018-09-13",
+           "time": "15:57:00",
+           "total":              {
+               "yes": 377,
+               "no": 20,
+               "present": 0,
+               "not_voting": 31
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "398",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/398.json",
+           "bill": {
+             "bill_id": "hr1911-115",
+             "number": "H R 1911",
+             "sponsor_id": "S000522",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr1911.json",
+             "title": "To amend the State Department Basic Authorities Act of 1956 to monitor and combat anti-Semitism globally, and for other purposes.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations."
+           },
+           "amendment": {
+           },
+                     "description": "Special Envoy to Monitor and Combat Anti-Semitism Act",
+           "question": "On Motion to Suspend the Rules and Pass, as Amended",
+           "result": "Passed",
+           "date": "2018-09-13",
+           "time": "13:08:00",
+           "total":              {
+               "yes": 393,
+               "no": 2,
+               "present": 0,
+               "not_voting": 33
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "397",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/397.json",
+           "bill": {
+             "bill_id": "hres1059-115",
+             "number": "H RES 1059",
+             "sponsor_id": "S000250",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hres1059.json",
+             "title": "Providing for consideration of the bill (H.R. 3798) to amend the Internal Revenue Code of 1986 to repeal the 30-hour threshold for classification as a full-time employee for purposes of the employer mandate in the Patient Protection and Affordable Care Act and replace it with 40 hours; providing for consideration of the conference report to accompany the bill (H.R. 5895) making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2019, and for other purposes; and providing for proceedings during the period from September 17, 2018, through September 24, 2018.",
+             "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+           },
+           "amendment": {
+           },
+                     "description": "Providing for consideration of H.R. 3798, the Save American Workers Act of 2017; and the conference report to accompany H.R. 5895, making appropriations for energy and water development and related ...",
+           "question": "On Agreeing to the Resolution",
+           "result": "Passed",
+           "date": "2018-09-13",
+           "time": "13:00:00",
+           "total":              {
+               "yes": 222,
+               "no": 171,
+               "present": 0,
+               "not_voting": 35
+           },
+           "position": "Yes"
+         },
+                  {
+           "member_id": "K000388",
+           "chamber": "House",
+           "congress": "115",
+           "session": "2",
+           "roll_call": "396",
+           "vote_uri": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/396.json",
+           "bill": {
+             "bill_id": "hr4689-115",
+             "number": "H R 4689",
+             "sponsor_id": "S001172",
+             "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr4689.json",
+             "title": "To authorize early repayment of obligations to the Bureau of Reclamation within the Northport Irrigation District in the State of Nebraska.",
+             "latest_action": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+           },
+           "amendment": {
+           },
+                     "description": "To authorize early repayment of obligations to the Bureau of Reclamation within the Northport Irrigation District in the State of Nebraska",
+           "question": "On Motion to Suspend the Rules and Pass",
+           "result": "Passed",
+           "date": "2018-09-12",
+           "time": "19:19:00",
+           "total":              {
+               "yes": 378,
+               "no": 1,
+               "present": 0,
+               "not_voting": 49
+           },
+           "position": "Yes"
+         }
+       ]
+    }
+  ]
+}

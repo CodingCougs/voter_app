@@ -1,0 +1,725 @@
+{
+ "kind": "civicinfo#representativeInfoResponse",
+ "normalizedInput": {
+  "line1": "1263 Pacific Avenue",
+  "city": "Kansas City",
+  "state": "KS",
+  "zip": "66102"
+ },
+ "divisions": {
+  "ocd-division/country:us": {
+   "name": "United States",
+   "officeIndices": [
+    0,
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ks": {
+   "name": "Kansas",
+   "officeIndices": [
+    2,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "ocd-division/country:us/state:ks/cd:3": {
+   "name": "Kansas's 3rd congressional district",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:ks/county:wyandotte": {
+   "name": "Wyandotte County"
+  },
+  "ocd-division/country:us/state:ks/county:wyandotte/council_district:2": {
+   "name": "Wyandotte County Commissioner District 2"
+  },
+  "ocd-division/country:us/state:ks/place:kansas_city": {
+   "name": "Kansas City city",
+   "officeIndices": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  "ocd-division/country:us/state:ks/sldl:32": {
+   "name": "Kansas State House district 32",
+   "officeIndices": [
+    7
+   ]
+  },
+  "ocd-division/country:us/state:ks/sldu:6": {
+   "name": "Kansas State Senate district 6",
+   "officeIndices": [
+    6
+   ]
+  }
+ },
+ "offices": [
+  {
+   "name": "President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "headOfState",
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    0
+   ]
+  },
+  {
+   "name": "Vice-President of the United States",
+   "divisionId": "ocd-division/country:us",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    1
+   ]
+  },
+  {
+   "name": "United States Senate",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "United States House of Representatives KS-03",
+   "divisionId": "ocd-division/country:us/state:ks/cd:3",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    4
+   ]
+  },
+  {
+   "name": "Governor",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "headOfGovernment"
+   ],
+   "officialIndices": [
+    5
+   ]
+  },
+  {
+   "name": "Lieutenant Governor",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "deputyHeadOfGovernment"
+   ],
+   "officialIndices": [
+    6
+   ]
+  },
+  {
+   "name": "KS State Senate District 6",
+   "divisionId": "ocd-division/country:us/state:ks/sldu:6",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    7
+   ]
+  },
+  {
+   "name": "KS State House District 32",
+   "divisionId": "ocd-division/country:us/state:ks/sldl:32",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    8
+   ]
+  },
+  {
+   "name": "State Treasurer",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "officialIndices": [
+    9
+   ]
+  },
+  {
+   "name": "Attorney General",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "officialIndices": [
+    10
+   ]
+  },
+  {
+   "name": "Secretary of State",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "officialIndices": [
+    11
+   ]
+  },
+  {
+   "name": "Insurance Commissioner",
+   "divisionId": "ocd-division/country:us/state:ks",
+   "officialIndices": [
+    12
+   ]
+  },
+  {
+   "name": "Sheriff",
+   "divisionId": "ocd-division/country:us/state:ks/place:kansas_city",
+   "officialIndices": [
+    13
+   ]
+  },
+  {
+   "name": "Mayor/CEO",
+   "divisionId": "ocd-division/country:us/state:ks/place:kansas_city",
+   "officialIndices": [
+    14
+   ]
+  },
+  {
+   "name": "Register of Deeds",
+   "divisionId": "ocd-division/country:us/state:ks/place:kansas_city",
+   "officialIndices": [
+    15
+   ]
+  },
+  {
+   "name": "Unified Government Commissioner, At Large, District 1",
+   "divisionId": "ocd-division/country:us/state:ks/place:kansas_city",
+   "officialIndices": [
+    16
+   ]
+  },
+  {
+   "name": "Unified Government Commissioner, At Large, District 2",
+   "divisionId": "ocd-division/country:us/state:ks/place:kansas_city",
+   "officialIndices": [
+    17
+   ]
+  }
+ ],
+ "officials": [
+  {
+   "name": "Donald J. Trump",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "potus"
+    },
+    {
+     "type": "YouTube",
+     "id": "whitehouse"
+    }
+   ]
+  },
+  {
+   "name": "Mike Pence",
+   "address": [
+    {
+     "line1": "The White House",
+     "line2": "1600 Pennsylvania Avenue NW",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20500"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 456-1111"
+   ],
+   "urls": [
+    "http://www.whitehouse.gov/"
+   ],
+   "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+   "channels": [
+    {
+     "type": "GooglePlus",
+     "id": "+whitehouse"
+    },
+    {
+     "type": "Facebook",
+     "id": "whitehouse"
+    },
+    {
+     "type": "Twitter",
+     "id": "VP"
+    }
+   ]
+  },
+  {
+   "name": "Jerry Moran",
+   "address": [
+    {
+     "line1": "521 Dirksen Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 224-6521"
+   ],
+   "urls": [
+    "http://www.moran.senate.gov/public/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/M/M000934.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "jerrymoran"
+    },
+    {
+     "type": "Twitter",
+     "id": "JerryMoran"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenatorJerryMoran"
+    }
+   ]
+  },
+  {
+   "name": "Pat Roberts",
+   "address": [
+    {
+     "line1": "109 Hart Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 224-4774"
+   ],
+   "urls": [
+    "http://www.roberts.senate.gov/public/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/R/R000307.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "SenPatRoberts"
+    },
+    {
+     "type": "Twitter",
+     "id": "SenPatRoberts"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenPatRoberts"
+    }
+   ]
+  },
+  {
+   "name": "Kevin Yoder",
+   "address": [
+    {
+     "line1": "2433 Rayburn House Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20515"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(202) 225-2865"
+   ],
+   "urls": [
+    "http://yoder.house.gov/"
+   ],
+   "photoUrl": "http://yoder.house.gov/sites/yoder.house.gov/files/wysiwyg_uploaded/KYPortrait.PNG",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "CongressmanKevinYoder"
+    },
+    {
+     "type": "Twitter",
+     "id": "RepKevinYoder"
+    },
+    {
+     "type": "YouTube",
+     "id": "RepYoder"
+    }
+   ]
+  },
+  {
+   "name": "Jeff Colyer",
+   "address": [
+    {
+     "line1": "Capitol",
+     "line2": "300 SW 10th Ave.",
+     "line3": "Ste. 241S",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(785) 296-3232"
+   ],
+   "urls": [
+    "http://www.governor.ks.gov/"
+   ],
+   "photoUrl": "https://governor.kansas.gov/wp-content/uploads/2016/11/Colyer-bio-image.jpg",
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "DrJeffColyer"
+    }
+   ]
+  },
+  {
+   "name": "Tracey Mann",
+   "address": [
+    {
+     "line1": "State Capitol",
+     "line2": "2nd Floor 300 SW 10th Ave.",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(785) 296-2214"
+   ]
+  },
+  {
+   "name": "Pat Pettey",
+   "address": [
+    {
+     "line1": "300 SW 10TH AVE STE 125-E",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(785) 296-7375"
+   ],
+   "urls": [
+    "http://www.kslegislature.org/li/b2017_18/members/sen_pettey_pat_1/"
+   ],
+   "photoUrl": "http://www.kslegislature.org/li/m/images/pics/sen_pettey_pat_1.jpg",
+   "emails": [
+    "Pat.Pettey@senate.ks.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "PatHPettey"
+    }
+   ]
+  },
+  {
+   "name": "Pam Curtis",
+   "address": [
+    {
+     "line1": "300 SW 10TH AVE STE 173-W",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(785) 296-7430"
+   ],
+   "urls": [
+    "http://www.kslegislature.org/li/b2017_18/members/rep_curtis_pam_1/"
+   ],
+   "photoUrl": "http://www.kslegislature.org/li/m/images/pics/rep_curtis_pam_1.jpg",
+   "emails": [
+    "pam.curtis@house.ks.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "pcurtiskck"
+    }
+   ]
+  },
+  {
+   "name": "Jake LaTurner",
+   "address": [
+    {
+     "line1": "Kansas State Treasurer 900 SW Jackson",
+     "line2": "Suite 201",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(785) 296-3171"
+   ],
+   "urls": [
+    "http://www.kansasstatetreasurer.com/prodweb/main/index.php"
+   ]
+  },
+  {
+   "name": "Derek Schmidt",
+   "address": [
+    {
+     "line1": "120 SW 10th Ave",
+     "line2": "2nd Floor",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(785) 296-2215"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "KSAGOffice"
+    }
+   ]
+  },
+  {
+   "name": "Kris W. Kobach",
+   "address": [
+    {
+     "line1": "Kansas Secretary of State Memorial Hall",
+     "line2": "1st Floor",
+     "line3": "120 SW 10th Avenue",
+     "city": "Topeka",
+     "state": "KS",
+     "zip": "66612"
+    }
+   ],
+   "party": "Republican",
+   "phones": [
+    "(785) 296-4564"
+   ],
+   "urls": [
+    "http://www.kssos.org/"
+   ],
+   "emails": [
+    "kssos@sos.ks.gov"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "Kansas-Secretary-of-State"
+    },
+    {
+     "type": "Twitter",
+     "id": "kansassos"
+    }
+   ]
+  },
+  {
+   "name": "Ken Selzer",
+   "party": "Republican",
+   "phones": [
+    "(785) 296-3071"
+   ],
+   "urls": [
+    "http://www.ksinsurance.org/"
+   ],
+   "emails": [
+    "commissioner@ksinsurance.org"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "KansasInsuranceDepartment"
+    }
+   ]
+  },
+  {
+   "name": "Donald Ash",
+   "address": [
+    {
+     "line1": "701 Nth 7th Street Suite 20",
+     "city": "Kansas City",
+     "state": "KS",
+     "zip": "66101"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(913) 573-2861"
+   ],
+   "urls": [
+    "http://www.wycokck.org/Sheriff/"
+   ],
+   "emails": [
+    "dash@wycokck.org"
+   ]
+  },
+  {
+   "name": "David Alvey",
+   "address": [
+    {
+     "line1": "701 N 7th Street  9th Floor",
+     "city": "Kansas City",
+     "state": "KS",
+     "zip": "66101"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(913) 573-5010"
+   ],
+   "urls": [
+    "http://www.wycokck.org/Mayor.aspx"
+   ],
+   "emails": [
+    "dalvey@wycokck.org"
+   ]
+  },
+  {
+   "name": "Nancy Burns",
+   "address": [
+    {
+     "line1": "710 N. 7th Street,",
+     "city": "Kansas City",
+     "state": "KS",
+     "zip": "66101"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(913) 573-2841"
+   ],
+   "urls": [
+    "http://www.wycokck.org/Register-of-Deeds.aspx"
+   ],
+   "emails": [
+    "nburns@wycokck.org"
+   ]
+  },
+  {
+   "name": "Melissa Bynum",
+   "address": [
+    {
+     "line1": "701 Nth 7th Street Suite 979",
+     "city": "Kansas City",
+     "state": "KS",
+     "zip": "66101"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(913) 573-5040"
+   ],
+   "urls": [
+    "http://www.wycokck.org/Commissioners.aspx"
+   ],
+   "emails": [
+    "mbynum@wycokck.org"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "cityofkck"
+    },
+    {
+     "type": "Twitter",
+     "id": "CityofKCK"
+    }
+   ]
+  },
+  {
+   "name": "Tom Burroughs",
+   "address": [
+    {
+     "line1": "701 Nth 7th Street Suite 979",
+     "city": "Kansas City",
+     "state": "KS",
+     "zip": "66101"
+    }
+   ],
+   "party": "Unknown",
+   "phones": [
+    "(913) 573-5040"
+   ],
+   "urls": [
+    "http://www.wycokck.org/Commissioners.aspx"
+   ],
+   "emails": [
+    "tburroughs@wycokck.org"
+   ],
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "cityofkck"
+    },
+    {
+     "type": "Twitter",
+     "id": "CityofKCK"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,610 @@
+{
+ "kind": "civicinfo#voterInfoResponse",
+ "election": {
+  "id": "6000",
+  "name": "US 2018 Midterm Election",
+  "electionDay": "2018-11-06",
+  "ocdDivisionId": "ocd-division/country:us"
+ },
+ "normalizedInput": {
+  "line1": "2895 Pauling Avenue",
+  "city": "Richland",
+  "state": "WA",
+  "zip": "99354"
+ },
+ "pollingLocations": [
+  {
+   "address": {
+    "locationName": "Richland Auditor's Office",
+    "line1": "101 Wellsian Way Ste E",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99352"
+   },
+   "notes": "In the Fred Meyer Plaza.",
+   "pollingHours": "Monday through Friday 8:30 a.m. to 4:30 p.m. Replacement Ballots Available. Election Day Hours -- 8:30am - 8pm.",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Kennewick Auditor's Office",
+    "line1": "5600 W Canal Dr",
+    "city": "Kennewick",
+    "state": "WA",
+    "zip": "99336"
+   },
+   "notes": "",
+   "pollingHours": "Monday through Friday 8:30 a.m. to 4:30 p.m. Open until 8 p.m. on Election Day.",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Prosser Auditor's Office",
+    "line1": "620 Market St",
+    "city": "Prosser",
+    "state": "WA",
+    "zip": "99350"
+   },
+   "notes": "",
+   "pollingHours": "Monday through Friday 8:30 a.m. to 4:30 p.m. Open until 8 p.m. on Election Day.",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  }
+ ],
+ "earlyVoteSites": [
+  {
+   "address": {
+    "locationName": "Benton County Auditor's Annex",
+    "line1": "101 Wellsian Way",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99352"
+   },
+   "notes": "Ste E",
+   "pollingHours": "Fri, Oct 19: 8:30 am - 4:30 pm\nMon, Oct 22: 8:30 am - 4:30 pm\nTue, Oct 23: 8:30 am - 4:30 pm\nWed, Oct 24: 8:30 am - 4:30 pm\nThu, Oct 25: 8:30 am - 4:30 pm\nFri, Oct 26: 8:30 am - 4:30 pm\nMon, Oct 29: 8:30 am - 4:30 pm\nTue, Oct 30: 8:30 am - 4:30 pm\nWed, Oct 31: 8:30 am - 4:30 pm\nThu, Nov 1: 8:30 am - 4:30 pm\nFri, Nov 2: 8:30 am - 4:30 pm\nMon, Nov 5: 8:30 am - 4:30 pm",
+   "startDate": "2018-10-19",
+   "endDate": "2018-11-05",
+   "sources": [
+    {
+     "name": "DemocracyWorks",
+     "official": false
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Benton County Auditor's Annex",
+    "line1": "5600 West Canal Drive",
+    "city": "Kennewick",
+    "state": "WA",
+    "zip": "99336"
+   },
+   "pollingHours": "Fri, Oct 19: 8:30 am - 4:30 pm\nMon, Oct 22: 8:30 am - 4:30 pm\nTue, Oct 23: 8:30 am - 4:30 pm\nWed, Oct 24: 8:30 am - 4:30 pm\nThu, Oct 25: 8:30 am - 4:30 pm\nFri, Oct 26: 8:30 am - 4:30 pm\nMon, Oct 29: 8:30 am - 4:30 pm\nTue, Oct 30: 8:30 am - 4:30 pm\nWed, Oct 31: 8:30 am - 4:30 pm\nThu, Nov 1: 8:30 am - 4:30 pm\nFri, Nov 2: 8:30 am - 4:30 pm\nMon, Nov 5: 8:30 am - 4:30 pm",
+   "startDate": "2018-10-19",
+   "endDate": "2018-11-05",
+   "sources": [
+    {
+     "name": "DemocracyWorks",
+     "official": false
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Benton County Courthouse",
+    "line1": "620 Market Street",
+    "city": "Prosser",
+    "state": "WA",
+    "zip": "99350"
+   },
+   "pollingHours": "Fri, Oct 19: 8:30 am - 4:30 pm\nMon, Oct 22: 8:30 am - 4:30 pm\nTue, Oct 23: 8:30 am - 4:30 pm\nWed, Oct 24: 8:30 am - 4:30 pm\nThu, Oct 25: 8:30 am - 4:30 pm\nFri, Oct 26: 8:30 am - 4:30 pm\nMon, Oct 29: 8:30 am - 4:30 pm\nTue, Oct 30: 8:30 am - 4:30 pm\nWed, Oct 31: 8:30 am - 4:30 pm\nThu, Nov 1: 8:30 am - 4:30 pm\nFri, Nov 2: 8:30 am - 4:30 pm\nMon, Nov 5: 8:30 am - 4:30 pm",
+   "startDate": "2018-10-19",
+   "endDate": "2018-11-05",
+   "sources": [
+    {
+     "name": "DemocracyWorks",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "dropOffLocations": [
+  {
+   "address": {
+    "locationName": "WSU Tri-Cities",
+    "line1": "2710 Crimson Way",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99354"
+   },
+   "notes": "Near the student parking lot.",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "WSU Tri-Cities",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Jefferson Park",
+    "line1": "Symons St",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99352"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Jefferson Park",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Richland Auditor's Annex",
+    "line1": "101 Wellsian Way",
+    "city": "Richland",
+    "state": "WA",
+    "zip": "99352"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Richland Auditor's Annex",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "West Richland City Hall",
+    "line1": "3801 West Van Giesen Street",
+    "city": "West Richland",
+    "state": "WA",
+    "zip": "99353"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "West Richland City Hall",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Belmont (West Richland)",
+    "line1": "3100 Belmont Blvd",
+    "city": "West Richland",
+    "state": "WA",
+    "zip": "99353"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Belmont (West Richland)",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Kennewick Auditor's Annex",
+    "line1": "5600 W Canal Dr",
+    "city": "Kennewick",
+    "state": "WA",
+    "zip": "99336"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Kennewick Auditor's Annex",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Benton City City Hall",
+    "line1": "708 9th St",
+    "city": "Benton City",
+    "state": "WA",
+    "zip": "99320"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Benton City City Hall",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-19",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Kennewick City Hall",
+    "line1": "210 W 6th Ave",
+    "city": "Kennewick",
+    "state": "WA",
+    "zip": "99336"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Kennewick City Hall",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  },
+  {
+   "address": {
+    "locationName": "Prosser Courthouse",
+    "line1": "620 Market St",
+    "city": "Prosser",
+    "state": "WA",
+    "zip": "99350"
+   },
+   "notes": "",
+   "pollingHours": "Open 24 hours. Ballots accepted until 8 p.m. on Election Day.",
+   "name": "Prosser Courthouse",
+   "voterServices": "Drop off",
+   "startDate": "2018-10-17",
+   "endDate": "2018-11-06",
+   "sources": [
+    {
+     "name": "Voting Information Project",
+     "official": true
+    }
+   ]
+  }
+ ],
+ "contests": [
+  {
+   "type": "General",
+   "office": "U.S. Senator",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Maria Cantwell",
+     "party": "Democratic Party",
+     "email": "info@cantwell.com",
+     "channels": [
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/MariaCantwell"
+      },
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/mariacantwell"
+      }
+     ]
+    },
+    {
+     "name": "Susan Hutchison",
+     "party": "Republican Party",
+     "phone": "(206) 880-1820"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "U.S. Representative",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "Washington's 4th congressional district",
+    "scope": "congressional",
+    "id": "4",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa/cd:4"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Christine Brown",
+     "party": "Democratic Party",
+     "phone": "(509) 551-4277",
+     "email": "hello@christinebrownforcongress.com",
+     "channels": [
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/ChristineForWA"
+      }
+     ]
+    },
+    {
+     "name": "Dan Newhouse",
+     "party": "Republican Party"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "WA Supreme Court Justice (Position 2)",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Susan Owens",
+     "phone": "(360) 866-6052",
+     "email": "sowens@olypen.com"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "WA Supreme Court Justice (Position 8)",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Nathan Choi",
+     "phone": "(425) 691-6559",
+     "email": "kanakavaivai@gmail.com"
+    },
+    {
+     "name": "Steve Gonzalez",
+     "phone": "(206) 707-9239",
+     "email": "info@justicegonzalez.com"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "WA Supreme Court Justice (Position 9)",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "numberElected": "1",
+   "numberVotingFor": "1",
+   "candidates": [
+    {
+     "name": "Sheryl Gordon McCloud",
+     "phone": "(425) 466-0619",
+     "email": "justicesherylmccloud@gmail.com"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "Referendum",
+   "ballotTitle": "Advisory Vote No. 19",
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "referendumTitle": "Advisory Vote No. 19",
+   "referendumText": "The legislature expanded, without a vote of the people, the oil spill response and administration taxes to crude oil or petroleum products received by pipeline, costing $13,000,000 over ten years for government spending. This tax increase should be:",
+   "referendumBallotResponses": [
+    "Repealed",
+    "Maintain"
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "Referendum",
+   "ballotTitle": "Initiative Measure No. 1631",
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "referendumTitle": "Initiative Measure No. 1631",
+   "referendumSubtitle": "Initiative Measure No. 1631 concerns pollution.",
+   "referendumText": "This measure would charge pollution fees on sources of greenhouse gas pollutants and use the revenue to reduce pollution, promote clean energy, and address climate impacts, under oversight of a public board. Should this measure be enacted into law?",
+   "referendumBallotResponses": [
+    "Yes",
+    "No"
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "Referendum",
+   "ballotTitle": "Initiative Measure No. 1634",
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "referendumTitle": "Initiative Measure No. 1634",
+   "referendumSubtitle": "Initiative Measure No. 1634 concerns taxation of certain items intended for human consumption.",
+   "referendumText": "This measure would prohibit new or increased local taxes, fees, or assessments on raw or processed foods or beverages (with exceptions), or ingredients thereof, unless effective by January 15, 2018, or generally applicable. Should this measure be enacted into law?",
+   "referendumBallotResponses": [
+    "Yes",
+    "No"
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "Referendum",
+   "ballotTitle": "Initiative Measure No. 1639",
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "referendumTitle": "Initiative Measure No. 1639",
+   "referendumSubtitle": "Initiative Measure No. 1639 concerns firearms.",
+   "referendumText": "This measure would require increased background checks, training, age limitations, and waiting periods for sales or delivery of semiautomatic assault rifles; criminalize noncompliant storage upon unauthorized use; allow fees; and enact other provisions. Should this measure be enacted into law?",
+   "referendumBallotResponses": [
+    "Yes",
+    "No"
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "Referendum",
+   "ballotTitle": "Initiative to the Legislature 940",
+   "district": {
+    "name": "Washington",
+    "scope": "statewide",
+    "kgForeignKey": "/authority/civics/ocd-division/country:us/state:wa"
+   },
+   "referendumTitle": "Initiative to the Legislature 940",
+   "referendumSubtitle": "Initiative Measure No. 940 concerns law enforcement.",
+   "referendumText": "This measure would require law enforcement to receive violence de-escalation, mental-health, and first-aid training, and provide first-aid; and change standards for use of deadly force, adding a \"good faith\" standard and independent investigation. Should this measure be enacted into law?",
+   "referendumBallotResponses": [
+    "Yes",
+    "No"
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "mailOnly": true
+}
