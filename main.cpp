@@ -10,13 +10,14 @@
 int main(int argc, char* argv[])
 {
     string address = "";
-    address = getAddress();
-    cURLaddressToFile(address, VOTE_INFO_CALL);
+    // address = getAddress();
+    cURLaddressProPublica(address, MEMBER_LIST);
+    // cURLaddressToFile(address, VOTE_INFO_CALL);
     // char * fileName = "repCallByAddress.json";
-    char * fileName = "voteCallByAddress.json";
+    char * fileName = "senateMemberList.json";
 
-    showCandidates(fileName);
-    showReferendums(fileName);
+    // showCandidates(fileName);
+    // showReferendums(fileName);
     // showRepresentatives(fileName);
 
     return 0;

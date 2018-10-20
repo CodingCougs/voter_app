@@ -13,10 +13,15 @@
 #include <curl/curl.h>
 #include "readJSONFile.h"
 
+// Google Constants
 #define VOTE_INFO_CALL      1
 #define REP_INFO_CALL       2
 
+// Propublica Constants
+#define MEMBER_LIST         1
+
 const char * PROPUBLICA_API_KEY = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
+const char * PROPUBLICA_API_KEY2 = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
 const char * GOOGLE_CIVIC_API_KEY = "AIzaSyC2XdRudeNVGITKbkMESaCSdnebxTi9bm0";
 const char * GOOGLE_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyC2XdRudeNVGITKbkMESaCSdnebxTi9bm0&address=1263%20Pacific%20Ave.%20Kansas%20City%20KS";
 
@@ -49,6 +54,41 @@ char * createGoogleURL(string parsedAddress, int dataToCall)
     {
         case VOTE_INFO_CALL:
             buffer << "https://www.googleapis.com/civicinfo/v2/voterinfo?address=" << parsedAddress << "&key=" << GOOGLE_CIVIC_API_KEY << "#";
+            break;
+        case REP_INFO_CALL:
+            buffer << "https://www.googleapis.com/civicinfo/v2/representatives?address=" << parsedAddress << "&key=" << GOOGLE_CIVIC_API_KEY << "#";
+            break;
+        default:
+            break;
+    }
+    buffer >> c;
+    while(c != '#')
+    {
+        URI[i++] = c;
+        buffer >> c;
+    }
+
+    return URI;
+};
+
+/*
+ * Creates a ProPublica URI in char * type so it can be fed into cURL as a parameter
+ *
+ * @param[in]  string parsedAddress - parsed Address suitable for converting into a char * URI
+ *
+ * @return	   char *     URI       - the completed URI to send into the cURL function
+**/
+char * createProPublicaURL(string parsedAddress, int dataToCall)
+{
+    stringstream buffer;
+    char c;
+    static char URI[200];
+    int i = 0;
+
+    switch (dataToCall)
+    {
+        case MEMBER_LIST:
+            buffer << "https://api.propublica.org/congress/v2/115/house/members.json" << "#";
             break;
         case REP_INFO_CALL:
             buffer << "https://www.googleapis.com/civicinfo/v2/representatives?address=" << parsedAddress << "&key=" << GOOGLE_CIVIC_API_KEY << "#";
@@ -105,33 +145,48 @@ string parseAddress(string address)
  * @param[in]  string   address     - Parsed address to be searched for
  *
 **/
-void cURLaddressOld(string address)
+void cURLaddressProPublica(string address, int dataToCall)
 {
     CURL *curl;                                                     // cURL Object that will do requests for us
-    CURLcode res;
     struct curl_slist *headers = NULL;                              // Headers list object, will be used for API Key
     char * URL;
+
+    static const char * pagefilename;
+    FILE *pagefile;
 
     curl_global_init(CURL_GLOBAL_DEFAULT);                          // Initialize Global defaults required
     curl = curl_easy_init();                                        // Initialize cURL object
 
-    URL = createGoogleURL(parseAddress(address), VOTE_INFO_CALL);
-    headers = curl_slist_append(headers, PROPUBLICA_API_KEY);         // API Key goes into the header, to send with the request
-    if(curl)
-    {                                                               // This is where you set the API URL
-        curl_easy_setopt(curl, CURLOPT_URL, URL);
-        // curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);        // This is where the API Key you set earlier goes to send with request
+    URL = createProPublicaURL(address, MEMBER_LIST);
 
-        res = curl_easy_perform(curl);
-                                                                    // Check for errors
-        if(res != CURLE_OK)
-        {
-            fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
-        }
-
-        curl_easy_cleanup(curl);                                    // Always cleanup
+    switch (dataToCall)
+    {
+        case MEMBER_LIST:
+            pagefilename = "houseMemberList.json";
+            break;
+        case REP_INFO_CALL:
+            pagefilename = "repCallByAddress.json";
+            break;
+        default:
+            break;
     }
 
+    curl_easy_setopt(curl, CURLOPT_URL, URL);
+    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);        // curl_easy_setopt(curl, CURLOPT_URL, "https://api.propublica.org/congress/v1/members/K000388/votes.json");
+    headers = curl_slist_append(headers, PROPUBLICA_API_KEY);         // API Key goes into the header, to send with the request
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);  
+                                                                        // Check for errors
+    pagefile = fopen(pagefilename, "wb");
+    if(pagefile)
+    {
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, pagefile);
+        curl_easy_perform(curl);
+
+        fclose(pagefile);
+    }
+
+    curl_easy_cleanup(curl);                                    // Always cleanup
     curl_global_cleanup();                                          // Cleaning up global settings
 }
 
@@ -168,12 +223,9 @@ void cURLaddressToFile(string address, int dataToCall)
             break;
     }
 
-    headers = curl_slist_append(headers, PROPUBLICA_API_KEY);         // API Key goes into the header, to send with the request
-
     curl_easy_setopt(curl, CURLOPT_URL, URL);
     // curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);        // curl_easy_setopt(curl, CURLOPT_URL, "https://api.propublica.org/congress/v1/members/K000388/votes.json");
-    // curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);        // This is where the API Key you set earlier goes to send with request
 
     pagefile = fopen(pagefilename, "wb");
     if(pagefile)
