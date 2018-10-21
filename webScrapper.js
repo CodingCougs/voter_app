@@ -1,14 +1,30 @@
 const puppeteer = require('puppeteer');
 
-(async function main(){
+async function initWebScrapper(){
     try{
-    var argv = process.argv.slice(2);
+    var fs = require('fs');
+    fs.writeFile('test.txt', '', function (err) {
+        if (err) throw err;
+    });
+
+    var fs=require('fs');
+    var data=fs.readFileSync('representativeNames.json', 'utf8');
+    var words=JSON.parse(data);
+
+    for(i = 0; i <= 1; i++){
+    webScrapper(words.names[i]);
+    }
+}catch(e){}};
+
+async function webScrapper(){
+    try{
+    //var argv = process.argv.slice(2);
     const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
     await page.goto('https://votesmart.org/');
 
     await page.waitFor('input[name=q]');
-    await page.type('input[name=q]', argv);
+    await page.type('input[name=q]', arguments[0]);
     await page.click('#ispysearch');
     
     await page.waitFor(1000);
@@ -26,17 +42,17 @@ const puppeteer = require('puppeteer');
     data.table = [];
 
     const result = await page.evaluate(() => {
-        let fullName   = document.querySelector('span[itemprop=gender]').innerText;
+        //let fullName   = document.querySelector('span[itemprop=gender]').innerText;
         let picture    = document.querySelector('#main > section > div.main.clear > div > div.section.section_float > div.clearfix.section.prepend-top.append-bottom > div > div.item.active.summary > div > div > div > div.span-3.canphoto > a').href;
 
         return{
-            fullName,
+            //fullName,
             picture
         }
 
     });
     var results = {
-        "Name": result.fullName,
+        //"Name": result.fullName,
         "picture": result.picture
     }
     data.table.push(results);
@@ -110,22 +126,17 @@ const puppeteer = require('puppeteer');
     var json1 = JSON.parse(json);
 
     //var json = JSON.stringify(obj);
-    //console.log(obj.fullName);
-    //console.log(obj.birthPlace);
     //console.log(json);
-    //console.log(json);
-    console.log(json);
     //console.log(rating);
 
     var fs = require('fs');
-    fs.writeFile("test.txt", json, function(err) {
-        if (err) {
-            console.log(err);
-        }
-    });
+    var stream = fs.createWriteStream("test.txt", {flags:'a'});
+    stream.write(json);
 
     return result;
-}catch(e){}}
-)();
+}catch(e){}};
 
+initWebScrapper();
+
+//Christopher Tracy
 //Matt Boehnke
