@@ -22,7 +22,6 @@
 #define HOUSE_MEMBER_LIST           2
 
 const char * PROPUBLICA_API_KEY = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
-const char * PROPUBLICA_API_KEY2 = "X-API-Key: vwdaGCyxpz530UzNiYVQloeKwgMLXVo2t5bfr8iG";
 const char * GOOGLE_CIVIC_API_KEY = "AIzaSyC2XdRudeNVGITKbkMESaCSdnebxTi9bm0";
 const char * GOOGLE_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyC2XdRudeNVGITKbkMESaCSdnebxTi9bm0&address=1263%20Pacific%20Ave.%20Kansas%20City%20KS";
 
@@ -158,7 +157,7 @@ void cURLaddressProPublica(string address, int dataToCall)
     curl_global_init(CURL_GLOBAL_DEFAULT);                          // Initialize Global defaults required
     curl = curl_easy_init();                                        // Initialize cURL object
 
-    URL = createProPublicaURL(address, MEMBER_LIST);
+    URL = createProPublicaURL(address, HOUSE_MEMBER_LIST);
 
     switch (dataToCall)
     {
@@ -176,7 +175,7 @@ void cURLaddressProPublica(string address, int dataToCall)
     // curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);        // curl_easy_setopt(curl, CURLOPT_URL, "https://api.propublica.org/congress/v1/members/K000388/votes.json");
     headers = curl_slist_append(headers, PROPUBLICA_API_KEY);         // API Key goes into the header, to send with the request
-    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers); 
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
                                                                         // Check for errors
     pagefile = fopen(pagefilename, "wb");
     if(pagefile)
@@ -432,6 +431,50 @@ void showRepresentatives(char * fileName)
         }
 
         cout << endl;
+    }
+}
+
+void showMemberFromList(char * fileName, string memberName)
+{
+    Document d = parseJSONFile(fileName);
+
+    for (auto& v : d["results"].GetArray())
+    {
+        for (auto& w : v["members"].GetArray())
+        {
+            if(w.HasMember("name"))
+            {
+                if(memberName == w["name"].GetString())
+                {
+                    cout << "\t\t" << w["name"].GetString() << endl;
+
+                    if(w.HasMember("party"))
+                    {
+                        cout << "Party:\t\t\t"  << w["party"].GetString() << endl;
+                    }
+                    if(w.HasMember("gender"))
+                    {
+                        cout << "Gender:\t\t\t"  << w["gender"].GetString() << endl;
+                    }
+                    if(w.HasMember("total_votes"))
+                    {
+                        cout << "Total Votes:\t\t"  << w["total_votes"].GetInt() << endl;
+                    }
+                    if(w.HasMember("missed_votes"))
+                    {
+                        cout << "Missed Votes:\t\t"  << w["missed_votes"].GetInt() << endl;
+                    }
+                    if(w.HasMember("missed_votes_pct"))
+                    {
+                        cout << "Missed Vote Percent:\t"  << w["missed_votes_pct"].GetDouble() << endl;
+                    }
+                    if(w.HasMember("votes_with_party_pct"))
+                    {
+                        cout << "Votes With Party:\t"  << w["votes_with_party_pct"].GetDouble() << "%" << endl;
+                    }
+                }
+            }
+        }
     }
 }
 

@@ -9,13 +9,13 @@
 
 int main(int argc, char* argv[])
 {
-    string address = "";
+    // string address = "";
     // address = getAddress();
-    cURLaddressProPublica(address, MEMBER_LIST);
+    // cURLaddressProPublica(address, MEMBER_LIST);
     // cURLaddressToFile(address, VOTE_INFO_CALL);
     // char * fileName = "repCallByAddress.json";
-    char * fileName = "senateMemberList.json";
-
+    // char * fileName = "senateMemberList.json";
+    showMemberFromList("houseMemberList.json", "Ralph Abraham");
     // showCandidates(fileName);
     // showReferendums(fileName);
     // showRepresentatives(fileName);
