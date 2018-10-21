@@ -2,12 +2,17 @@ const puppeteer = require('puppeteer');
 
 (async function main(){
     try{
+    var argv = process.argv.slice(2);
     const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
     await page.goto('https://votesmart.org/');
 
     await page.waitFor('input[name=q]');
-    await page.type('input[name=q]', 'Christopher Tracy');
+    await page.type('input[name=q]', argv);
+    await page.click('#ispysearch');
+    
+    await page.waitFor(1000);
+    await page.keyboard.press('Space');
     
     await page.waitFor(10000);
     
@@ -90,6 +95,12 @@ const puppeteer = require('puppeteer');
         }
 
     });
+
+    var ratings = {
+        "Name": rating.organization,
+        "Percentage": rating.rating
+    }
+    data.table.push(ratings);
 
     browser.close();
 
