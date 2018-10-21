@@ -13,11 +13,13 @@ int main(int argc, char* argv[])
     // address = getAddress();
     // cURLaddressProPublica(address, MEMBER_LIST);
     // cURLaddressToFile(address, VOTE_INFO_CALL);
-    // char * fileName = "repCallByAddress.json";
+    char * fileName = "voteCallByAddress.json";
     // char * fileName = "senateMemberList.json";
-    showMemberFromList("houseMemberList.json", "Ralph Abraham");
+
+    // showMemberFromList("houseMemberList.json", "Ralph Abraham");
     // showCandidates(fileName);
     // showReferendums(fileName);
+    makeCandidatesJSON(fileName);
     // showRepresentatives(fileName);
 
     return 0;

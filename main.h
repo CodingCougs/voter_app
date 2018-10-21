@@ -307,6 +307,37 @@ void showCandidates(char * fileName)
 }
 
 /*
+ * Parses JSON then displays condidate data to stdout
+ *
+ * @param[in]  char *   fileName    - name of the JSON file with appropriate candidate data (probably voteCallByAddress.json)
+ *
+**/
+void makeCandidatesJSON(char * fileName)
+{
+    Document d = parseJSONFile(fileName);
+
+    cout << "{" << endl << " \"names\": [";
+
+    for (auto& v : d["contests"].GetArray())
+    {
+        if(v["type"] != "Referendum")
+        {
+            if(v.HasMember("candidates"))
+            {
+                for(auto& w : v["candidates"].GetArray())
+                {
+                    if(w.HasMember("name"))
+                    {
+                        cout << "\"" << w["name"].GetString() << "\", ";
+                    }
+                }
+            }
+        }
+    }
+    cout << "] " << endl << "}";
+}
+
+/*
  * Parses JSON then displays referendum data on stdout
  *
  * @param[in]  char *   fileName    - name of the JSON file with appropriate referendum data (probably voteCallByAddress.json)
@@ -434,7 +465,13 @@ void showRepresentatives(char * fileName)
     }
 }
 
-void showMemberFromList(char * fileName, string memberName)
+/*
+ * Parses House or Senate Member List, searches for a certain member from the list, then outputs
+ * data from that list if the member is found
+ *
+ * @param[in]  char *   fileName    - name of the JSON file with appropriate referendum data (probably voteCallByAddress.json)
+ *
+**/void showMemberFromList(char * fileName, string memberName)
 {
     Document d = parseJSONFile(fileName);
 
@@ -466,7 +503,7 @@ void showMemberFromList(char * fileName, string memberName)
                     }
                     if(w.HasMember("missed_votes_pct"))
                     {
-                        cout << "Missed Vote Percent:\t"  << w["missed_votes_pct"].GetDouble() << endl;
+                        cout << "Missed Vote:\t\t"  << w["missed_votes_pct"].GetDouble() << "%" << endl;
                     }
                     if(w.HasMember("votes_with_party_pct"))
                     {
