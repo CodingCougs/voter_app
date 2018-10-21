@@ -19,8 +19,14 @@ int main(int argc, char* argv[])
     // showMemberFromList("houseMemberList.json", "Ralph Abraham");
     // showCandidates(fileName);
     // showReferendums(fileName);
-    makeCandidatesJSON(fileName);
+    // makeCandidatesJSON(fileName);
     // showRepresentatives(fileName);
+    cout << getCandidateName(fileName, 0) << endl;
+    cout << getCandidateParty(fileName, 0) << endl;
+    cout << getCandidateEmail(fileName, 0) << endl;
 
+    cout << getCandidateName(fileName, 1) << endl;
+    cout << getCandidateParty(fileName, 1) << endl;
+    cout << getCandidateEmail(fileName, 1) << endl;
     return 0;
 }

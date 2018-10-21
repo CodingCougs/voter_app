@@ -15,18 +15,5 @@ Document parseJSONFile(const char * fileLocation)
     d.ParseStream(is);
     fclose(fp);
 
-    // for (auto& v : d["offices"].GetArray())
-    // {
-    //     cout << v["name"].GetString() << endl << v["divisionId"].GetString() << endl;
-    //     if(v.HasMember("roles"))
-    //     {
-    //         for(auto& w : v["roles"].GetArray())
-    //         {
-    //             cout << w.GetString() << endl;
-    //         }
-    //     }
-    //     cout << endl;
-    // }
-
     return d;
 };
